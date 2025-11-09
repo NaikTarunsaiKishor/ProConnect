@@ -2,18 +2,18 @@
 
 🌐 Live Demo
 
-🔗 Frontend (Netlify/Vercel): https://your-frontend-link.com
+🔗 Deployed Project (Netlify): https://6910e51f80833081b1e46a13--proconnects.netlify.app/
 
 📦 GitHub Repository
 
-📁 Repo Link: https://github.com/yourusername/ProConnect
+📁 Repo Link: https://github.com/NaikTarunsaiKishor/ProConnect
 
 📘 Project Overview:
 
 ProConnect is a LinkedIn-inspired full stack web application that enables users to connect, share, and interact — just like professionals do on LinkedIn.
 Users can sign up, log in, create posts, and explore posts from others in a clean, modern, and responsive interface.
 
-This project demonstrates complete Full Stack Development skills, including frontend (React), backend (Node.js + Express), and database (MongoDB) integration.
+This project demonstrates complete Full Stack Development skills, including frontend (React), backend (Node.js + Express), and database Supabase integration.
 
 ⚙️ Tech Stack
 🧠 Frontend
@@ -107,14 +107,13 @@ Before running the project, make sure you have the following installed:
 
 Clone the repository
 
-git clone https://github.com/yourusername/ProConnect.git
+git clone https:https://github.com/NaikTarunsaiKishor/ProConnect
 cd ProConnect
 
 
 Install dependencies
 
 npm install
-
 
 or (if using Bun):
 
@@ -160,7 +159,7 @@ Open your browser and visit:
 🚀 Deploying a Vite + Supabase full-stack project seamlessly
 
 📤 Deployment
-🌍 Frontend (Vite App)
+🌍 https://6910e51f80833081b1e46a13--proconnects.netlify.app/
 
 You can deploy easily on:
 Netlify
@@ -173,28 +172,15 @@ Hosted automatically via Supabase
 
 📩 Submission
 
-🌐 Live Project Link:
+🌐 Live Project Link: https://6910e51f80833081b1e46a13--proconnects.netlify.app/
 
-💻 GitHub Repository Link
-
-🕒 Deadline: Within 3 days of receiving the assignment
+💻 GitHub Repository Link: https://github.com/NaikTarunsaiKishor/ProConnect
 
 🙌 Author
 
-👨‍💻 Tarun Naik
+👨‍💻 Tarunsai Naik
 💼 Full Stack Developer | Passionate about Building Scalable Web Applications
 
-🔗 GitHub
-
-🔗 LinkedIn
-
-🪪 License
-
-This project is licensed under the MIT License.
-See the LICENSE
- file for more details.
 
 💡 “The future belongs to those who connect people through technology — ProConnect does just that.”
- file for more details.
 
-💡 “The future belongs to those who connect people through technology — ProConnect does just that.”
