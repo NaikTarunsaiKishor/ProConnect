@@ -1,73 +1,200 @@
-# Welcome to your Lovable project
+🚀 ProConnect – A Simple LinkedIn Clone
 
-## Project info
+🌐 Live Demo
 
-**URL**: https://lovable.dev/projects/ddf06080-1eff-4fa6-adbb-878c7ef03959
+🔗 Frontend (Netlify/Vercel): https://your-frontend-link.com
 
-## How can I edit this code?
+📦 GitHub Repository
 
-There are several ways of editing your application.
+📁 Repo Link: https://github.com/yourusername/ProConnect
 
-**Use Lovable**
+📘 Project Overview:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ddf06080-1eff-4fa6-adbb-878c7ef03959) and start prompting.
+ProConnect is a LinkedIn-inspired full stack web application that enables users to connect, share, and interact — just like professionals do on LinkedIn.
+Users can sign up, log in, create posts, and explore posts from others in a clean, modern, and responsive interface.
 
-Changes made via Lovable will be committed automatically to this repo.
+This project demonstrates complete Full Stack Development skills, including frontend (React), backend (Node.js + Express), and database (MongoDB) integration.
 
-**Use your preferred IDE**
+⚙️ Tech Stack
+🧠 Frontend
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⚛️ React + TypeScript (Vite) – Component-based, fast frontend framework
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🎨 Tailwind CSS – Utility-first styling for responsive UI
 
-Follow these steps:
+🔄 Supabase Client – For authentication and database integration
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🧭 React Router DOM – Page navigation and routing
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🗄️ Backend / Database
 
-# Step 3: Install the necessary dependencies.
-npm i
+🧩 Supabase – Handles backend-as-a-service (Auth, DB, Storage, API)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+🔐 JWT Auth – Managed by Supabase for secure user sessions
+
+⚙️ Tools & Config
+
+⚡ Vite – Lightning-fast development server and build tool
+
+🧰 ESLint + TypeScript Configs – Code quality and type checking
+
+⚙️ PostCSS + Tailwind Configs – Style processing
+
+🔒 .env – For environment variable management
+
+🌍 View All Posts
+
+All users can see posts from everyone
+
+Feed shows latest posts first
+
+💎 Bonus Features (Optional) is also DONE..
+
+👍 Like or comment on posts
+
+✏️ Edit or delete own posts
+
+🖼️ Upload images with posts
+
+👨‍💼 Profile page for each user
+
+🚪 Logout functionality
+
+🧩 Project Structure
+LINKUP-SHARE-MAIN/
+│
+├── src/
+│   ├── lib/                     # Utility & helper functions
+│   ├── pages/                   # Main app pages
+│   │   ├── Auth.tsx             # Login & Signup page
+│   │   ├── Index.tsx            # Home/Feed page
+│   │   ├── Profile.tsx          # User profile page
+│   │   └── NotFound.tsx         # 404 fallback page
+│   ├── App.tsx                  # Main App component
+│   ├── App.css                  # Global styles
+│   ├── index.css                # Base Tailwind imports
+│   ├── main.tsx                 # React entry file
+│   └── vite-env.d.ts            # TypeScript Vite environment types
+│
+├── supabase/                    # Supabase setup and client config
+│
+├── .env                         # Environment variables (Supabase keys, etc.)
+├── index.html                   # HTML template for Vite
+├── components.json              # UI component registry
+├── package.json                 # Dependencies and scripts
+├── tailwind.config.ts           # Tailwind configuration
+├── postcss.config.js            # PostCSS config
+├── eslint.config.js             # Linting rules
+├── tsconfig.json                # TypeScript configuration
+├── vite.config.ts               # Vite configuration
+├── .gitignore                   # Ignored files for Git
+├── README.md                    # Documentation
+└── bun.lockb / package-lock.json # Dependency lock files
+
+
+⚡ Getting Started
+🧱 Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+🟢 Node.js (v16 or later recommended)
+
+📦 npm, yarn, or bun (your choice of package manager)
+
+🔐 Supabase account (for authentication and database)
+
+🛠️ Installation
+
+Clone the repository
+
+git clone https://github.com/yourusername/ProConnect.git
+cd ProConnect
+
+
+Install dependencies
+
+npm install
+
+
+or (if using Bun):
+
+bun install
+
+
+Set up environment variables
+Create a .env file in the project root:
+
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_public_key
+
+
+Run the development server
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+or (with Bun):
 
-**Use GitHub Codespaces**
+bun dev
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+Open your browser and visit:
+👉 http://localhost:5173
 
-This project is built with:
+🌈 Page	Description
+🏠 Auth Page	Secure Login and Signup powered by Supabase
+📰 Feed Page	View all user posts in a global feed
+✍️ Create Post	Write and share your thoughts instantly
+👨‍💼 Profile Page	View and manage your personal details and posts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🧠 Key Learnings
 
-## How can I deploy this project?
+🔑 Implementing Supabase Authentication for secure user login/signup
 
-Simply open [Lovable](https://lovable.dev/projects/ddf06080-1eff-4fa6-adbb-878c7ef03959) and click on Share -> Publish.
+⚛️ Building modular React + TypeScript components with clean structure
 
-## Can I connect a custom domain to my Lovable project?
+🎨 Creating a responsive UI with Tailwind CSS
 
-Yes, you can!
+🧩 Managing routes and pages using React Router DOM
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🚀 Deploying a Vite + Supabase full-stack project seamlessly
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+📤 Deployment
+🌍 Frontend (Vite App)
+
+You can deploy easily on:
+Netlify
+
+⚙️ Backend / Database (Supabase)
+
+Hosted automatically via Supabase
+
+🧩 Tip: Update your frontend .env values with your live Supabase credentials.
+
+📩 Submission
+
+🌐 Live Project Link:
+
+💻 GitHub Repository Link
+
+🕒 Deadline: Within 3 days of receiving the assignment
+
+🙌 Author
+
+👨‍💻 Tarun Naik
+💼 Full Stack Developer | Passionate about Building Scalable Web Applications
+
+🔗 GitHub
+
+🔗 LinkedIn
+
+🪪 License
+
+This project is licensed under the MIT License.
+See the LICENSE
+ file for more details.
+
+💡 “The future belongs to those who connect people through technology — ProConnect does just that.”
+ file for more details.
+
+💡 “The future belongs to those who connect people through technology — ProConnect does just that.”
